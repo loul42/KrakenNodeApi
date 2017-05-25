@@ -1,0 +1,1067 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\node.exe',
+1 verbose cli   'C:\\Users\\LOUIS\\AppData\\Roaming\\npm\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install',
+1 verbose cli   'sleep',
+1 verbose cli   '--save' ]
+2 info using npm@3.9.0
+3 info using node@v4.2.3
+4 silly loadCurrentTree Starting
+5 silly install loadCurrentTree
+6 silly install readLocalPackageData
+7 silly fetchPackageMetaData sleep
+8 silly fetchNamedPackageData sleep
+9 silly mapToRegistry name sleep
+10 silly mapToRegistry using default registry
+11 silly mapToRegistry registry https://registry.npmjs.org/
+12 silly mapToRegistry data Result {
+12 silly mapToRegistry   raw: 'sleep',
+12 silly mapToRegistry   scope: null,
+12 silly mapToRegistry   name: 'sleep',
+12 silly mapToRegistry   rawSpec: '',
+12 silly mapToRegistry   spec: 'latest',
+12 silly mapToRegistry   type: 'tag' }
+13 silly mapToRegistry uri https://registry.npmjs.org/sleep
+14 verbose request uri https://registry.npmjs.org/sleep
+15 verbose request no auth needed
+16 info attempt registry request try #1 at 16:15:03
+17 verbose request id a044ea1930eb69fc
+18 http request GET https://registry.npmjs.org/sleep
+19 http 200 https://registry.npmjs.org/sleep
+20 verbose headers { server: 'nginx/1.10.1',
+20 verbose headers   'content-type': 'application/json',
+20 verbose headers   'last-modified': 'Mon, 17 Apr 2017 15:10:54 GMT',
+20 verbose headers   etag: 'W/"58f4dafe-56ea"',
+20 verbose headers   'content-encoding': 'gzip',
+20 verbose headers   'cache-control': 'max-age=300',
+20 verbose headers   'content-length': '3053',
+20 verbose headers   'accept-ranges': 'bytes',
+20 verbose headers   date: 'Thu, 25 May 2017 14:15:03 GMT',
+20 verbose headers   via: '1.1 varnish',
+20 verbose headers   age: '90',
+20 verbose headers   connection: 'keep-alive',
+20 verbose headers   'x-served-by': 'cache-lcy1142-LCY',
+20 verbose headers   'x-cache': 'HIT',
+20 verbose headers   'x-cache-hits': '1',
+20 verbose headers   'x-timer': 'S1495721703.350828,VS0,VE0',
+20 verbose headers   vary: 'Accept-Encoding' }
+21 silly get cb [ 200,
+21 silly get   { server: 'nginx/1.10.1',
+21 silly get     'content-type': 'application/json',
+21 silly get     'last-modified': 'Mon, 17 Apr 2017 15:10:54 GMT',
+21 silly get     etag: 'W/"58f4dafe-56ea"',
+21 silly get     'content-encoding': 'gzip',
+21 silly get     'cache-control': 'max-age=300',
+21 silly get     'content-length': '3053',
+21 silly get     'accept-ranges': 'bytes',
+21 silly get     date: 'Thu, 25 May 2017 14:15:03 GMT',
+21 silly get     via: '1.1 varnish',
+21 silly get     age: '90',
+21 silly get     connection: 'keep-alive',
+21 silly get     'x-served-by': 'cache-lcy1142-LCY',
+21 silly get     'x-cache': 'HIT',
+21 silly get     'x-cache-hits': '1',
+21 silly get     'x-timer': 'S1495721703.350828,VS0,VE0',
+21 silly get     vary: 'Accept-Encoding' } ]
+22 verbose get saving sleep to C:\Users\LOUIS\AppData\Roaming\npm-cache\registry.npmjs.org\sleep\.cache.json
+23 verbose correctMkdir C:\Users\LOUIS\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+24 silly install normalizeTree
+25 silly loadCurrentTree Finishing
+26 silly loadIdealTree Starting
+27 silly install loadIdealTree
+28 silly cloneCurrentTree Starting
+29 silly install cloneCurrentTreeToIdealTree
+30 silly cloneCurrentTree Finishing
+31 silly loadShrinkwrap Starting
+32 silly install loadShrinkwrap
+33 silly loadShrinkwrap Finishing
+34 silly loadAllDepsIntoIdealTree Starting
+35 silly install loadAllDepsIntoIdealTree
+36 silly resolveWithNewModule sleep@5.1.1 checking installable status
+37 silly cache add args [ 'sleep', null ]
+38 verbose cache add spec sleep
+39 silly cache add parsed spec Result {
+39 silly cache add   raw: 'sleep',
+39 silly cache add   scope: null,
+39 silly cache add   name: 'sleep',
+39 silly cache add   rawSpec: '',
+39 silly cache add   spec: 'latest',
+39 silly cache add   type: 'tag' }
+40 silly addNamed sleep@latest
+41 verbose addNamed "latest" is being treated as a dist-tag for sleep
+42 info addNameTag [ 'sleep', 'latest' ]
+43 silly mapToRegistry name sleep
+44 silly mapToRegistry using default registry
+45 silly mapToRegistry registry https://registry.npmjs.org/
+46 silly mapToRegistry data Result {
+46 silly mapToRegistry   raw: 'sleep',
+46 silly mapToRegistry   scope: null,
+46 silly mapToRegistry   name: 'sleep',
+46 silly mapToRegistry   rawSpec: '',
+46 silly mapToRegistry   spec: 'latest',
+46 silly mapToRegistry   type: 'tag' }
+47 silly mapToRegistry uri https://registry.npmjs.org/sleep
+48 verbose addNameTag registry:https://registry.npmjs.org/sleep not in flight; fetching
+49 verbose get https://registry.npmjs.org/sleep not expired, no request
+50 silly addNameTag next cb for sleep with tag latest
+51 silly addNamed sleep@5.1.1
+52 verbose addNamed "5.1.1" is a plain semver version for sleep
+53 silly mapToRegistry name sleep
+54 silly mapToRegistry using default registry
+55 silly mapToRegistry registry https://registry.npmjs.org/
+56 silly mapToRegistry data Result {
+56 silly mapToRegistry   raw: 'sleep',
+56 silly mapToRegistry   scope: null,
+56 silly mapToRegistry   name: 'sleep',
+56 silly mapToRegistry   rawSpec: '',
+56 silly mapToRegistry   spec: 'latest',
+56 silly mapToRegistry   type: 'tag' }
+57 silly mapToRegistry uri https://registry.npmjs.org/sleep
+58 verbose addRemoteTarball https://registry.npmjs.org/sleep/-/sleep-5.1.1.tgz not in flight; adding
+59 verbose addRemoteTarball [ 'https://registry.npmjs.org/sleep/-/sleep-5.1.1.tgz',
+59 verbose addRemoteTarball   '878fa1d44d08eeb0f26fb2018ef8629eb1a3ab94' ]
+60 info retry fetch attempt 1 at 16:15:03
+61 info attempt registry request try #1 at 16:15:03
+62 http fetch GET https://registry.npmjs.org/sleep/-/sleep-5.1.1.tgz
+63 http fetch 200 https://registry.npmjs.org/sleep/-/sleep-5.1.1.tgz
+64 silly fetchAndShaCheck shasum 878fa1d44d08eeb0f26fb2018ef8629eb1a3ab94
+65 verbose addTmpTarball C:\Users\LOUIS\AppData\Local\Temp\npm-15484-c42e5bf7\registry.npmjs.org\sleep\-\sleep-5.1.1.tgz not in flight; adding
+66 verbose addTmpTarball already have metadata; skipping unpack for sleep@5.1.1
+67 verbose correctMkdir C:\Users\LOUIS\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+68 silly cache afterAdd sleep@5.1.1
+69 verbose afterAdd C:\Users\LOUIS\AppData\Roaming\npm-cache\sleep\5.1.1\package\package.json not in flight; writing
+70 verbose correctMkdir C:\Users\LOUIS\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+71 verbose afterAdd C:\Users\LOUIS\AppData\Roaming\npm-cache\sleep\5.1.1\package\package.json written
+72 silly fetchNamedPackageData nan
+73 silly mapToRegistry name nan
+74 silly mapToRegistry using default registry
+75 silly mapToRegistry registry https://registry.npmjs.org/
+76 silly mapToRegistry data Result {
+76 silly mapToRegistry   raw: 'nan',
+76 silly mapToRegistry   scope: null,
+76 silly mapToRegistry   name: 'nan',
+76 silly mapToRegistry   rawSpec: '',
+76 silly mapToRegistry   spec: 'latest',
+76 silly mapToRegistry   type: 'tag' }
+77 silly mapToRegistry uri https://registry.npmjs.org/nan
+78 verbose request uri https://registry.npmjs.org/nan
+79 verbose request no auth needed
+80 info attempt registry request try #1 at 16:15:03
+81 http request GET https://registry.npmjs.org/nan
+82 http 200 https://registry.npmjs.org/nan
+83 verbose headers { server: 'nginx/1.10.1',
+83 verbose headers   'content-type': 'application/json',
+83 verbose headers   'last-modified': 'Mon, 15 May 2017 01:39:39 GMT',
+83 verbose headers   etag: 'W/"591906db-1f9db"',
+83 verbose headers   'content-encoding': 'gzip',
+83 verbose headers   'cache-control': 'max-age=300',
+83 verbose headers   'content-length': '15222',
+83 verbose headers   'accept-ranges': 'bytes',
+83 verbose headers   date: 'Thu, 25 May 2017 14:15:03 GMT',
+83 verbose headers   via: '1.1 varnish',
+83 verbose headers   age: '14',
+83 verbose headers   connection: 'keep-alive',
+83 verbose headers   'x-served-by': 'cache-lcy1148-LCY',
+83 verbose headers   'x-cache': 'HIT',
+83 verbose headers   'x-cache-hits': '1',
+83 verbose headers   'x-timer': 'S1495721704.656266,VS0,VE1',
+83 verbose headers   vary: 'Accept-Encoding' }
+84 silly get cb [ 200,
+84 silly get   { server: 'nginx/1.10.1',
+84 silly get     'content-type': 'application/json',
+84 silly get     'last-modified': 'Mon, 15 May 2017 01:39:39 GMT',
+84 silly get     etag: 'W/"591906db-1f9db"',
+84 silly get     'content-encoding': 'gzip',
+84 silly get     'cache-control': 'max-age=300',
+84 silly get     'content-length': '15222',
+84 silly get     'accept-ranges': 'bytes',
+84 silly get     date: 'Thu, 25 May 2017 14:15:03 GMT',
+84 silly get     via: '1.1 varnish',
+84 silly get     age: '14',
+84 silly get     connection: 'keep-alive',
+84 silly get     'x-served-by': 'cache-lcy1148-LCY',
+84 silly get     'x-cache': 'HIT',
+84 silly get     'x-cache-hits': '1',
+84 silly get     'x-timer': 'S1495721704.656266,VS0,VE1',
+84 silly get     vary: 'Accept-Encoding' } ]
+85 verbose get saving nan to C:\Users\LOUIS\AppData\Roaming\npm-cache\registry.npmjs.org\nan\.cache.json
+86 verbose correctMkdir C:\Users\LOUIS\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+87 silly resolveWithNewModule nan@2.6.2 checking installable status
+88 silly cache add args [ 'nan@>=2.5.1', null ]
+89 verbose cache add spec nan@>=2.5.1
+90 silly cache add parsed spec Result {
+90 silly cache add   raw: 'nan@>=2.5.1',
+90 silly cache add   scope: null,
+90 silly cache add   name: 'nan',
+90 silly cache add   rawSpec: '>=2.5.1',
+90 silly cache add   spec: '>=2.5.1',
+90 silly cache add   type: 'range' }
+91 silly addNamed nan@>=2.5.1
+92 verbose addNamed ">=2.5.1" is a valid semver range for nan
+93 silly addNameRange { name: 'nan', range: '>=2.5.1', hasData: false }
+94 silly mapToRegistry name nan
+95 silly mapToRegistry using default registry
+96 silly mapToRegistry registry https://registry.npmjs.org/
+97 silly mapToRegistry data Result {
+97 silly mapToRegistry   raw: 'nan',
+97 silly mapToRegistry   scope: null,
+97 silly mapToRegistry   name: 'nan',
+97 silly mapToRegistry   rawSpec: '',
+97 silly mapToRegistry   spec: 'latest',
+97 silly mapToRegistry   type: 'tag' }
+98 silly mapToRegistry uri https://registry.npmjs.org/nan
+99 verbose addNameRange registry:https://registry.npmjs.org/nan not in flight; fetching
+100 verbose get https://registry.npmjs.org/nan not expired, no request
+101 silly addNameRange number 2 { name: 'nan', range: '>=2.5.1', hasData: true }
+102 silly addNameRange versions [ 'nan',
+102 silly addNameRange   [ '0.3.0-wip',
+102 silly addNameRange     '0.3.0-wip2',
+102 silly addNameRange     '0.3.0',
+102 silly addNameRange     '0.3.1',
+102 silly addNameRange     '0.3.2',
+102 silly addNameRange     '0.4.0',
+102 silly addNameRange     '0.4.1',
+102 silly addNameRange     '0.4.2',
+102 silly addNameRange     '0.4.3',
+102 silly addNameRange     '0.4.4',
+102 silly addNameRange     '0.5.0',
+102 silly addNameRange     '0.5.1',
+102 silly addNameRange     '0.5.2',
+102 silly addNameRange     '0.6.0',
+102 silly addNameRange     '0.7.0',
+102 silly addNameRange     '0.7.1',
+102 silly addNameRange     '0.8.0',
+102 silly addNameRange     '1.0.0',
+102 silly addNameRange     '1.1.0',
+102 silly addNameRange     '1.1.1',
+102 silly addNameRange     '1.1.2',
+102 silly addNameRange     '1.2.0',
+102 silly addNameRange     '1.3.0',
+102 silly addNameRange     '1.4.0',
+102 silly addNameRange     '1.4.1',
+102 silly addNameRange     '1.5.0',
+102 silly addNameRange     '1.4.2',
+102 silly addNameRange     '1.4.3',
+102 silly addNameRange     '1.5.1',
+102 silly addNameRange     '1.5.2',
+102 silly addNameRange     '1.6.0',
+102 silly addNameRange     '1.5.3',
+102 silly addNameRange     '1.6.1',
+102 silly addNameRange     '1.6.2',
+102 silly addNameRange     '1.7.0',
+102 silly addNameRange     '1.8.0',
+102 silly addNameRange     '1.8.1',
+102 silly addNameRange     '1.8.2',
+102 silly addNameRange     '1.8.3',
+102 silly addNameRange     '1.8.4',
+102 silly addNameRange     '1.9.0',
+102 silly addNameRange     '2.0.0',
+102 silly addNameRange     '2.0.1',
+102 silly addNameRange     '2.0.2',
+102 silly addNameRange     '2.0.3',
+102 silly addNameRange     '2.0.4',
+102 silly addNameRange     '2.0.5',
+102 silly addNameRange     '2.0.6',
+102 silly addNameRange     '2.0.7',
+102 silly addNameRange     '2.0.8',
+102 silly addNameRange     '2.0.9',
+102 silly addNameRange     '2.1.0',
+102 silly addNameRange     '2.2.0',
+102 silly addNameRange     '2.2.1',
+102 silly addNameRange     '2.3.0',
+102 silly addNameRange     '2.3.1',
+102 silly addNameRange     '2.3.2',
+102 silly addNameRange     '2.3.3',
+102 silly addNameRange     '2.3.4',
+102 silly addNameRange     '2.3.5',
+102 silly addNameRange     '2.4.0',
+102 silly addNameRange     '2.5.0',
+102 silly addNameRange     '2.5.1',
+102 silly addNameRange     '2.6.0',
+102 silly addNameRange     '2.6.1',
+102 silly addNameRange     '2.6.2' ] ]
+103 silly addNamed nan@2.6.2
+104 verbose addNamed "2.6.2" is a plain semver version for nan
+105 silly mapToRegistry name nan
+106 silly mapToRegistry using default registry
+107 silly mapToRegistry registry https://registry.npmjs.org/
+108 silly mapToRegistry data Result {
+108 silly mapToRegistry   raw: 'nan',
+108 silly mapToRegistry   scope: null,
+108 silly mapToRegistry   name: 'nan',
+108 silly mapToRegistry   rawSpec: '',
+108 silly mapToRegistry   spec: 'latest',
+108 silly mapToRegistry   type: 'tag' }
+109 silly mapToRegistry uri https://registry.npmjs.org/nan
+110 verbose addRemoteTarball https://registry.npmjs.org/nan/-/nan-2.6.2.tgz not in flight; adding
+111 verbose addRemoteTarball [ 'https://registry.npmjs.org/nan/-/nan-2.6.2.tgz',
+111 verbose addRemoteTarball   'e4ff34e6c95fdfb5aecc08de6596f43605a7db45' ]
+112 info retry fetch attempt 1 at 16:15:03
+113 info attempt registry request try #1 at 16:15:03
+114 http fetch GET https://registry.npmjs.org/nan/-/nan-2.6.2.tgz
+115 http fetch 200 https://registry.npmjs.org/nan/-/nan-2.6.2.tgz
+116 silly fetchAndShaCheck shasum e4ff34e6c95fdfb5aecc08de6596f43605a7db45
+117 verbose addTmpTarball C:\Users\LOUIS\AppData\Local\Temp\npm-15484-c42e5bf7\registry.npmjs.org\nan\-\nan-2.6.2.tgz not in flight; adding
+118 verbose addTmpTarball already have metadata; skipping unpack for nan@2.6.2
+119 verbose correctMkdir C:\Users\LOUIS\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+120 silly cache afterAdd nan@2.6.2
+121 verbose afterAdd C:\Users\LOUIS\AppData\Roaming\npm-cache\nan\2.6.2\package\package.json not in flight; writing
+122 verbose correctMkdir C:\Users\LOUIS\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+123 verbose afterAdd C:\Users\LOUIS\AppData\Roaming\npm-cache\nan\2.6.2\package\package.json written
+124 silly loadAllDepsIntoIdealTree Finishing
+125 silly idealTree:prePrune krakenapi@1.0.0
+125 silly idealTree:prePrune +-- abbrev@1.1.0
+125 silly idealTree:prePrune +-- agent-base@2.0.1
+125 silly idealTree:prePrune +-- ajv@4.11.8
+125 silly idealTree:prePrune +-- ansi-escapes@1.4.0
+125 silly idealTree:prePrune +-- ansi-regex@2.1.1
+125 silly idealTree:prePrune +-- ansi-styles@2.2.1
+125 silly idealTree:prePrune +-- asn1@0.2.3
+125 silly idealTree:prePrune +-- assert-plus@0.2.0
+125 silly idealTree:prePrune +-- async@1.0.0
+125 silly idealTree:prePrune +-- asynckit@0.4.0
+125 silly idealTree:prePrune +-- aws-sign2@0.6.0
+125 silly idealTree:prePrune +-- aws4@1.6.0
+125 silly idealTree:prePrune +-- bcrypt-pbkdf@1.0.1
+125 silly idealTree:prePrune +-- boom@2.10.1
+125 silly idealTree:prePrune +-- caseless@0.12.0
+125 silly idealTree:prePrune +-- chalk@1.1.3
+125 silly idealTree:prePrune +-- clear@0.0.1
+125 silly idealTree:prePrune +-- cli-color@1.2.0
+125 silly idealTree:prePrune +-- cli-cursor@2.1.0
+125 silly idealTree:prePrune +-- cli-width@2.1.0
+125 silly idealTree:prePrune +-- clui@0.3.1
+125 silly idealTree:prePrune | +-- cli-color@0.3.2
+125 silly idealTree:prePrune | +-- d@0.1.1
+125 silly idealTree:prePrune | +-- es6-iterator@0.1.3
+125 silly idealTree:prePrune | +-- es6-symbol@2.0.1
+125 silly idealTree:prePrune | +-- es6-weak-map@0.1.4
+125 silly idealTree:prePrune | +-- memoizee@0.3.10
+125 silly idealTree:prePrune | `-- next-tick@0.2.2
+125 silly idealTree:prePrune +-- co@4.6.0
+125 silly idealTree:prePrune +-- colors@1.0.3
+125 silly idealTree:prePrune +-- combined-stream@1.0.5
+125 silly idealTree:prePrune +-- cryptiles@2.0.5
+125 silly idealTree:prePrune +-- cycle@1.0.3
+125 silly idealTree:prePrune +-- d@1.0.0
+125 silly idealTree:prePrune +-- dashdash@1.14.1
+125 silly idealTree:prePrune | `-- assert-plus@1.0.0
+125 silly idealTree:prePrune +-- debug@2.6.8
+125 silly idealTree:prePrune +-- delayed-stream@1.0.0
+125 silly idealTree:prePrune +-- ecc-jsbn@0.1.1
+125 silly idealTree:prePrune +-- es5-ext@0.10.21
+125 silly idealTree:prePrune +-- es6-iterator@2.0.1
+125 silly idealTree:prePrune +-- es6-symbol@3.1.1
+125 silly idealTree:prePrune +-- es6-weak-map@2.0.2
+125 silly idealTree:prePrune +-- escape-string-regexp@1.0.5
+125 silly idealTree:prePrune +-- event-emitter@0.3.5
+125 silly idealTree:prePrune +-- extend@3.0.1
+125 silly idealTree:prePrune +-- external-editor@2.0.4
+125 silly idealTree:prePrune +-- extsprintf@1.0.2
+125 silly idealTree:prePrune +-- eyes@0.1.8
+125 silly idealTree:prePrune +-- figlet@1.2.0
+125 silly idealTree:prePrune +-- figures@2.0.0
+125 silly idealTree:prePrune +-- follow-redirects@0.0.7
+125 silly idealTree:prePrune +-- forever-agent@0.6.1
+125 silly idealTree:prePrune +-- form-data@2.1.4
+125 silly idealTree:prePrune +-- getpass@0.1.7
+125 silly idealTree:prePrune | `-- assert-plus@1.0.0
+125 silly idealTree:prePrune +-- github@9.2.0
+125 silly idealTree:prePrune +-- graceful-fs@4.1.11
+125 silly idealTree:prePrune +-- har-schema@1.0.5
+125 silly idealTree:prePrune +-- har-validator@4.2.1
+125 silly idealTree:prePrune +-- has-ansi@2.0.0
+125 silly idealTree:prePrune +-- hawk@3.1.3
+125 silly idealTree:prePrune +-- hoek@2.16.3
+125 silly idealTree:prePrune +-- http-signature@1.1.1
+125 silly idealTree:prePrune +-- https-proxy-agent@1.0.0
+125 silly idealTree:prePrune +-- iconv-lite@0.4.17
+125 silly idealTree:prePrune +-- imurmurhash@0.1.4
+125 silly idealTree:prePrune +-- inquirer@3.0.6
+125 silly idealTree:prePrune +-- is-fullwidth-code-point@2.0.0
+125 silly idealTree:prePrune +-- is-promise@2.1.0
+125 silly idealTree:prePrune +-- is-typedarray@1.0.0
+125 silly idealTree:prePrune +-- isstream@0.1.2
+125 silly idealTree:prePrune +-- jodid25519@1.0.2
+125 silly idealTree:prePrune +-- jsbn@0.1.1
+125 silly idealTree:prePrune +-- jschardet@1.4.2
+125 silly idealTree:prePrune +-- json-schema@0.2.3
+125 silly idealTree:prePrune +-- json-stable-stringify@1.0.1
+125 silly idealTree:prePrune +-- json-stringify-safe@5.0.1
+125 silly idealTree:prePrune +-- jsonify@0.0.0
+125 silly idealTree:prePrune +-- jsprim@1.4.0
+125 silly idealTree:prePrune | `-- assert-plus@1.0.0
+125 silly idealTree:prePrune +-- kraken-api@0.1.7
+125 silly idealTree:prePrune +-- lodash@4.17.4
+125 silly idealTree:prePrune +-- lru-queue@0.1.0
+125 silly idealTree:prePrune +-- memoizee@0.4.5
+125 silly idealTree:prePrune +-- mime-db@1.27.0
+125 silly idealTree:prePrune +-- mime-types@2.1.15
+125 silly idealTree:prePrune +-- mime@1.3.6
+125 silly idealTree:prePrune +-- mimic-fn@1.1.0
+125 silly idealTree:prePrune +-- minimist@1.2.0
+125 silly idealTree:prePrune +-- mkdirp@0.5.1
+125 silly idealTree:prePrune | `-- minimist@0.0.8
+125 silly idealTree:prePrune +-- ms@2.0.0
+125 silly idealTree:prePrune +-- mute-stream@0.0.7
+125 silly idealTree:prePrune +-- nan@2.6.2
+125 silly idealTree:prePrune +-- netrc@0.1.4
+125 silly idealTree:prePrune +-- next-tick@1.0.0
+125 silly idealTree:prePrune +-- nopt@1.0.10
+125 silly idealTree:prePrune +-- oauth-sign@0.8.2
+125 silly idealTree:prePrune +-- onetime@2.0.1
+125 silly idealTree:prePrune +-- os-homedir@1.0.2
+125 silly idealTree:prePrune +-- os-tmpdir@1.0.2
+125 silly idealTree:prePrune +-- performance-now@0.2.0
+125 silly idealTree:prePrune +-- preferences@0.2.1
+125 silly idealTree:prePrune +-- punycode@1.4.1
+125 silly idealTree:prePrune +-- qs@6.4.0
+125 silly idealTree:prePrune +-- querystring@0.2.0
+125 silly idealTree:prePrune +-- request@2.81.0
+125 silly idealTree:prePrune +-- restore-cursor@2.0.0
+125 silly idealTree:prePrune +-- run-async@2.3.0
+125 silly idealTree:prePrune +-- rx@4.1.0
+125 silly idealTree:prePrune +-- safe-buffer@5.0.1
+125 silly idealTree:prePrune +-- semver@5.0.3
+125 silly idealTree:prePrune +-- signal-exit@3.0.2
+125 silly idealTree:prePrune +-- simple-git@1.73.0
+125 silly idealTree:prePrune +-- sleep@5.1.1
+125 silly idealTree:prePrune +-- slide@1.1.6
+125 silly idealTree:prePrune +-- sntp@1.0.9
+125 silly idealTree:prePrune +-- sshpk@1.13.0
+125 silly idealTree:prePrune | `-- assert-plus@1.0.0
+125 silly idealTree:prePrune +-- stack-trace@0.0.10
+125 silly idealTree:prePrune +-- stream-consume@0.1.0
+125 silly idealTree:prePrune +-- string-width@2.0.0
+125 silly idealTree:prePrune +-- stringstream@0.0.5
+125 silly idealTree:prePrune +-- strip-ansi@3.0.1
+125 silly idealTree:prePrune +-- supports-color@2.0.0
+125 silly idealTree:prePrune +-- through@2.3.8
+125 silly idealTree:prePrune +-- timers-ext@0.1.2
+125 silly idealTree:prePrune +-- tmp@0.0.31
+125 silly idealTree:prePrune +-- touch@1.0.0
+125 silly idealTree:prePrune +-- tough-cookie@2.3.2
+125 silly idealTree:prePrune +-- tunnel-agent@0.6.0
+125 silly idealTree:prePrune +-- tweetnacl@0.14.5
+125 silly idealTree:prePrune +-- uuid@3.0.1
+125 silly idealTree:prePrune +-- verror@1.3.6
+125 silly idealTree:prePrune +-- winston@2.3.1
+125 silly idealTree:prePrune `-- write-file-atomic@1.3.4
+126 silly loadIdealTree Finishing
+127 silly currentTree krakenapi@1.0.0
+127 silly currentTree +-- abbrev@1.1.0
+127 silly currentTree +-- agent-base@2.0.1
+127 silly currentTree +-- ajv@4.11.8
+127 silly currentTree +-- ansi-escapes@1.4.0
+127 silly currentTree +-- ansi-regex@2.1.1
+127 silly currentTree +-- ansi-styles@2.2.1
+127 silly currentTree +-- asn1@0.2.3
+127 silly currentTree +-- assert-plus@0.2.0
+127 silly currentTree +-- async@1.0.0
+127 silly currentTree +-- asynckit@0.4.0
+127 silly currentTree +-- aws-sign2@0.6.0
+127 silly currentTree +-- aws4@1.6.0
+127 silly currentTree +-- bcrypt-pbkdf@1.0.1
+127 silly currentTree +-- boom@2.10.1
+127 silly currentTree +-- caseless@0.12.0
+127 silly currentTree +-- chalk@1.1.3
+127 silly currentTree +-- clear@0.0.1
+127 silly currentTree +-- cli-color@1.2.0
+127 silly currentTree +-- cli-cursor@2.1.0
+127 silly currentTree +-- cli-width@2.1.0
+127 silly currentTree +-- clui@0.3.1
+127 silly currentTree | +-- cli-color@0.3.2
+127 silly currentTree | +-- d@0.1.1
+127 silly currentTree | +-- es6-iterator@0.1.3
+127 silly currentTree | +-- es6-symbol@2.0.1
+127 silly currentTree | +-- es6-weak-map@0.1.4
+127 silly currentTree | +-- memoizee@0.3.10
+127 silly currentTree | `-- next-tick@0.2.2
+127 silly currentTree +-- co@4.6.0
+127 silly currentTree +-- colors@1.0.3
+127 silly currentTree +-- combined-stream@1.0.5
+127 silly currentTree +-- cryptiles@2.0.5
+127 silly currentTree +-- cycle@1.0.3
+127 silly currentTree +-- d@1.0.0
+127 silly currentTree +-- dashdash@1.14.1
+127 silly currentTree | `-- assert-plus@1.0.0
+127 silly currentTree +-- debug@2.6.8
+127 silly currentTree +-- delayed-stream@1.0.0
+127 silly currentTree +-- ecc-jsbn@0.1.1
+127 silly currentTree +-- es5-ext@0.10.21
+127 silly currentTree +-- es6-iterator@2.0.1
+127 silly currentTree +-- es6-symbol@3.1.1
+127 silly currentTree +-- es6-weak-map@2.0.2
+127 silly currentTree +-- escape-string-regexp@1.0.5
+127 silly currentTree +-- event-emitter@0.3.5
+127 silly currentTree +-- extend@3.0.1
+127 silly currentTree +-- external-editor@2.0.4
+127 silly currentTree +-- extsprintf@1.0.2
+127 silly currentTree +-- eyes@0.1.8
+127 silly currentTree +-- figlet@1.2.0
+127 silly currentTree +-- figures@2.0.0
+127 silly currentTree +-- follow-redirects@0.0.7
+127 silly currentTree +-- forever-agent@0.6.1
+127 silly currentTree +-- form-data@2.1.4
+127 silly currentTree +-- getpass@0.1.7
+127 silly currentTree | `-- assert-plus@1.0.0
+127 silly currentTree +-- github@9.2.0
+127 silly currentTree +-- graceful-fs@4.1.11
+127 silly currentTree +-- har-schema@1.0.5
+127 silly currentTree +-- har-validator@4.2.1
+127 silly currentTree +-- has-ansi@2.0.0
+127 silly currentTree +-- hawk@3.1.3
+127 silly currentTree +-- hoek@2.16.3
+127 silly currentTree +-- http-signature@1.1.1
+127 silly currentTree +-- https-proxy-agent@1.0.0
+127 silly currentTree +-- iconv-lite@0.4.17
+127 silly currentTree +-- imurmurhash@0.1.4
+127 silly currentTree +-- inquirer@3.0.6
+127 silly currentTree +-- is-fullwidth-code-point@2.0.0
+127 silly currentTree +-- is-promise@2.1.0
+127 silly currentTree +-- is-typedarray@1.0.0
+127 silly currentTree +-- isstream@0.1.2
+127 silly currentTree +-- jodid25519@1.0.2
+127 silly currentTree +-- jsbn@0.1.1
+127 silly currentTree +-- jschardet@1.4.2
+127 silly currentTree +-- json-schema@0.2.3
+127 silly currentTree +-- json-stable-stringify@1.0.1
+127 silly currentTree +-- json-stringify-safe@5.0.1
+127 silly currentTree +-- jsonify@0.0.0
+127 silly currentTree +-- jsprim@1.4.0
+127 silly currentTree | `-- assert-plus@1.0.0
+127 silly currentTree +-- kraken-api@0.1.7
+127 silly currentTree +-- lodash@4.17.4
+127 silly currentTree +-- lru-queue@0.1.0
+127 silly currentTree +-- memoizee@0.4.5
+127 silly currentTree +-- mime-db@1.27.0
+127 silly currentTree +-- mime-types@2.1.15
+127 silly currentTree +-- mime@1.3.6
+127 silly currentTree +-- mimic-fn@1.1.0
+127 silly currentTree +-- minimist@1.2.0
+127 silly currentTree +-- mkdirp@0.5.1
+127 silly currentTree | `-- minimist@0.0.8
+127 silly currentTree +-- ms@2.0.0
+127 silly currentTree +-- mute-stream@0.0.7
+127 silly currentTree +-- netrc@0.1.4
+127 silly currentTree +-- next-tick@1.0.0
+127 silly currentTree +-- nopt@1.0.10
+127 silly currentTree +-- oauth-sign@0.8.2
+127 silly currentTree +-- onetime@2.0.1
+127 silly currentTree +-- os-homedir@1.0.2
+127 silly currentTree +-- os-tmpdir@1.0.2
+127 silly currentTree +-- performance-now@0.2.0
+127 silly currentTree +-- preferences@0.2.1
+127 silly currentTree +-- punycode@1.4.1
+127 silly currentTree +-- qs@6.4.0
+127 silly currentTree +-- querystring@0.2.0
+127 silly currentTree +-- request@2.81.0
+127 silly currentTree +-- restore-cursor@2.0.0
+127 silly currentTree +-- run-async@2.3.0
+127 silly currentTree +-- rx@4.1.0
+127 silly currentTree +-- safe-buffer@5.0.1
+127 silly currentTree +-- semver@5.0.3
+127 silly currentTree +-- signal-exit@3.0.2
+127 silly currentTree +-- simple-git@1.73.0
+127 silly currentTree +-- slide@1.1.6
+127 silly currentTree +-- sntp@1.0.9
+127 silly currentTree +-- sshpk@1.13.0
+127 silly currentTree | `-- assert-plus@1.0.0
+127 silly currentTree +-- stack-trace@0.0.10
+127 silly currentTree +-- stream-consume@0.1.0
+127 silly currentTree +-- string-width@2.0.0
+127 silly currentTree +-- stringstream@0.0.5
+127 silly currentTree +-- strip-ansi@3.0.1
+127 silly currentTree +-- supports-color@2.0.0
+127 silly currentTree +-- through@2.3.8
+127 silly currentTree +-- timers-ext@0.1.2
+127 silly currentTree +-- tmp@0.0.31
+127 silly currentTree +-- touch@1.0.0
+127 silly currentTree +-- tough-cookie@2.3.2
+127 silly currentTree +-- tunnel-agent@0.6.0
+127 silly currentTree +-- tweetnacl@0.14.5
+127 silly currentTree +-- uuid@3.0.1
+127 silly currentTree +-- verror@1.3.6
+127 silly currentTree +-- winston@2.3.1
+127 silly currentTree `-- write-file-atomic@1.3.4
+128 silly idealTree krakenapi@1.0.0
+128 silly idealTree +-- abbrev@1.1.0
+128 silly idealTree +-- agent-base@2.0.1
+128 silly idealTree +-- ajv@4.11.8
+128 silly idealTree +-- ansi-escapes@1.4.0
+128 silly idealTree +-- ansi-regex@2.1.1
+128 silly idealTree +-- ansi-styles@2.2.1
+128 silly idealTree +-- asn1@0.2.3
+128 silly idealTree +-- assert-plus@0.2.0
+128 silly idealTree +-- async@1.0.0
+128 silly idealTree +-- asynckit@0.4.0
+128 silly idealTree +-- aws-sign2@0.6.0
+128 silly idealTree +-- aws4@1.6.0
+128 silly idealTree +-- bcrypt-pbkdf@1.0.1
+128 silly idealTree +-- boom@2.10.1
+128 silly idealTree +-- caseless@0.12.0
+128 silly idealTree +-- chalk@1.1.3
+128 silly idealTree +-- clear@0.0.1
+128 silly idealTree +-- cli-color@1.2.0
+128 silly idealTree +-- cli-cursor@2.1.0
+128 silly idealTree +-- cli-width@2.1.0
+128 silly idealTree +-- clui@0.3.1
+128 silly idealTree | +-- cli-color@0.3.2
+128 silly idealTree | +-- d@0.1.1
+128 silly idealTree | +-- es6-iterator@0.1.3
+128 silly idealTree | +-- es6-symbol@2.0.1
+128 silly idealTree | +-- es6-weak-map@0.1.4
+128 silly idealTree | +-- memoizee@0.3.10
+128 silly idealTree | `-- next-tick@0.2.2
+128 silly idealTree +-- co@4.6.0
+128 silly idealTree +-- colors@1.0.3
+128 silly idealTree +-- combined-stream@1.0.5
+128 silly idealTree +-- cryptiles@2.0.5
+128 silly idealTree +-- cycle@1.0.3
+128 silly idealTree +-- d@1.0.0
+128 silly idealTree +-- dashdash@1.14.1
+128 silly idealTree | `-- assert-plus@1.0.0
+128 silly idealTree +-- debug@2.6.8
+128 silly idealTree +-- delayed-stream@1.0.0
+128 silly idealTree +-- ecc-jsbn@0.1.1
+128 silly idealTree +-- es5-ext@0.10.21
+128 silly idealTree +-- es6-iterator@2.0.1
+128 silly idealTree +-- es6-symbol@3.1.1
+128 silly idealTree +-- es6-weak-map@2.0.2
+128 silly idealTree +-- escape-string-regexp@1.0.5
+128 silly idealTree +-- event-emitter@0.3.5
+128 silly idealTree +-- extend@3.0.1
+128 silly idealTree +-- external-editor@2.0.4
+128 silly idealTree +-- extsprintf@1.0.2
+128 silly idealTree +-- eyes@0.1.8
+128 silly idealTree +-- figlet@1.2.0
+128 silly idealTree +-- figures@2.0.0
+128 silly idealTree +-- follow-redirects@0.0.7
+128 silly idealTree +-- forever-agent@0.6.1
+128 silly idealTree +-- form-data@2.1.4
+128 silly idealTree +-- getpass@0.1.7
+128 silly idealTree | `-- assert-plus@1.0.0
+128 silly idealTree +-- github@9.2.0
+128 silly idealTree +-- graceful-fs@4.1.11
+128 silly idealTree +-- har-schema@1.0.5
+128 silly idealTree +-- har-validator@4.2.1
+128 silly idealTree +-- has-ansi@2.0.0
+128 silly idealTree +-- hawk@3.1.3
+128 silly idealTree +-- hoek@2.16.3
+128 silly idealTree +-- http-signature@1.1.1
+128 silly idealTree +-- https-proxy-agent@1.0.0
+128 silly idealTree +-- iconv-lite@0.4.17
+128 silly idealTree +-- imurmurhash@0.1.4
+128 silly idealTree +-- inquirer@3.0.6
+128 silly idealTree +-- is-fullwidth-code-point@2.0.0
+128 silly idealTree +-- is-promise@2.1.0
+128 silly idealTree +-- is-typedarray@1.0.0
+128 silly idealTree +-- isstream@0.1.2
+128 silly idealTree +-- jodid25519@1.0.2
+128 silly idealTree +-- jsbn@0.1.1
+128 silly idealTree +-- jschardet@1.4.2
+128 silly idealTree +-- json-schema@0.2.3
+128 silly idealTree +-- json-stable-stringify@1.0.1
+128 silly idealTree +-- json-stringify-safe@5.0.1
+128 silly idealTree +-- jsonify@0.0.0
+128 silly idealTree +-- jsprim@1.4.0
+128 silly idealTree | `-- assert-plus@1.0.0
+128 silly idealTree +-- kraken-api@0.1.7
+128 silly idealTree +-- lodash@4.17.4
+128 silly idealTree +-- lru-queue@0.1.0
+128 silly idealTree +-- memoizee@0.4.5
+128 silly idealTree +-- mime-db@1.27.0
+128 silly idealTree +-- mime-types@2.1.15
+128 silly idealTree +-- mime@1.3.6
+128 silly idealTree +-- mimic-fn@1.1.0
+128 silly idealTree +-- minimist@1.2.0
+128 silly idealTree +-- mkdirp@0.5.1
+128 silly idealTree | `-- minimist@0.0.8
+128 silly idealTree +-- ms@2.0.0
+128 silly idealTree +-- mute-stream@0.0.7
+128 silly idealTree +-- nan@2.6.2
+128 silly idealTree +-- netrc@0.1.4
+128 silly idealTree +-- next-tick@1.0.0
+128 silly idealTree +-- nopt@1.0.10
+128 silly idealTree +-- oauth-sign@0.8.2
+128 silly idealTree +-- onetime@2.0.1
+128 silly idealTree +-- os-homedir@1.0.2
+128 silly idealTree +-- os-tmpdir@1.0.2
+128 silly idealTree +-- performance-now@0.2.0
+128 silly idealTree +-- preferences@0.2.1
+128 silly idealTree +-- punycode@1.4.1
+128 silly idealTree +-- qs@6.4.0
+128 silly idealTree +-- querystring@0.2.0
+128 silly idealTree +-- request@2.81.0
+128 silly idealTree +-- restore-cursor@2.0.0
+128 silly idealTree +-- run-async@2.3.0
+128 silly idealTree +-- rx@4.1.0
+128 silly idealTree +-- safe-buffer@5.0.1
+128 silly idealTree +-- semver@5.0.3
+128 silly idealTree +-- signal-exit@3.0.2
+128 silly idealTree +-- simple-git@1.73.0
+128 silly idealTree +-- sleep@5.1.1
+128 silly idealTree +-- slide@1.1.6
+128 silly idealTree +-- sntp@1.0.9
+128 silly idealTree +-- sshpk@1.13.0
+128 silly idealTree | `-- assert-plus@1.0.0
+128 silly idealTree +-- stack-trace@0.0.10
+128 silly idealTree +-- stream-consume@0.1.0
+128 silly idealTree +-- string-width@2.0.0
+128 silly idealTree +-- stringstream@0.0.5
+128 silly idealTree +-- strip-ansi@3.0.1
+128 silly idealTree +-- supports-color@2.0.0
+128 silly idealTree +-- through@2.3.8
+128 silly idealTree +-- timers-ext@0.1.2
+128 silly idealTree +-- tmp@0.0.31
+128 silly idealTree +-- touch@1.0.0
+128 silly idealTree +-- tough-cookie@2.3.2
+128 silly idealTree +-- tunnel-agent@0.6.0
+128 silly idealTree +-- tweetnacl@0.14.5
+128 silly idealTree +-- uuid@3.0.1
+128 silly idealTree +-- verror@1.3.6
+128 silly idealTree +-- winston@2.3.1
+128 silly idealTree `-- write-file-atomic@1.3.4
+129 silly generateActionsToTake Starting
+130 silly install generateActionsToTake
+131 silly generateActionsToTake Finishing
+132 silly diffTrees action count 3
+133 silly diffTrees add nan@2.6.2
+134 silly diffTrees update kraken-api@0.1.7
+135 silly diffTrees add sleep@5.1.1
+136 silly decomposeActions action count 24
+137 silly decomposeActions fetch nan@2.6.2
+138 silly decomposeActions extract nan@2.6.2
+139 silly decomposeActions test nan@2.6.2
+140 silly decomposeActions preinstall nan@2.6.2
+141 silly decomposeActions build nan@2.6.2
+142 silly decomposeActions install nan@2.6.2
+143 silly decomposeActions postinstall nan@2.6.2
+144 silly decomposeActions finalize nan@2.6.2
+145 silly decomposeActions fetch kraken-api@0.1.7
+146 silly decomposeActions extract kraken-api@0.1.7
+147 silly decomposeActions test kraken-api@0.1.7
+148 silly decomposeActions preinstall kraken-api@0.1.7
+149 silly decomposeActions build kraken-api@0.1.7
+150 silly decomposeActions install kraken-api@0.1.7
+151 silly decomposeActions postinstall kraken-api@0.1.7
+152 silly decomposeActions finalize kraken-api@0.1.7
+153 silly decomposeActions fetch sleep@5.1.1
+154 silly decomposeActions extract sleep@5.1.1
+155 silly decomposeActions test sleep@5.1.1
+156 silly decomposeActions preinstall sleep@5.1.1
+157 silly decomposeActions build sleep@5.1.1
+158 silly decomposeActions install sleep@5.1.1
+159 silly decomposeActions postinstall sleep@5.1.1
+160 silly decomposeActions finalize sleep@5.1.1
+161 silly executeActions Starting
+162 silly install executeActions
+163 silly doSerial global-install 0
+164 silly doParallel fetch 3
+165 verbose correctMkdir C:\Users\LOUIS\AppData\Roaming\npm-cache\_locks correctMkdir not in flight; initializing
+166 verbose lock using C:\Users\LOUIS\AppData\Roaming\npm-cache\_locks\staging-79d35736fa160d13.lock for C:\Project\KrakenApi\KrakenNodeApi\node_modules\.staging
+167 silly doParallel extract 3
+168 silly extract nan@2.6.2
+169 silly extract kraken-api@0.1.7
+170 silly extract sleep@5.1.1
+171 silly addNamed kraken-api@0.1.7
+172 verbose addNamed "0.1.7" is a plain semver version for kraken-api
+173 silly mapToRegistry name kraken-api
+174 silly mapToRegistry using default registry
+175 silly mapToRegistry registry https://registry.npmjs.org/
+176 silly mapToRegistry data Result {
+176 silly mapToRegistry   raw: 'kraken-api',
+176 silly mapToRegistry   scope: null,
+176 silly mapToRegistry   name: 'kraken-api',
+176 silly mapToRegistry   rawSpec: '',
+176 silly mapToRegistry   spec: 'latest',
+176 silly mapToRegistry   type: 'tag' }
+177 silly mapToRegistry uri https://registry.npmjs.org/kraken-api
+178 verbose addNameVersion registry:https://registry.npmjs.org/kraken-api not in flight; fetching
+179 verbose unbuild node_modules\.staging\nan-410b227a
+180 verbose unbuild node_modules\.staging\sleep-62ada706
+181 silly gentlyRm C:\Project\KrakenApi\KrakenNodeApi\node_modules\.staging\nan-410b227a is being purged from base C:\Project\KrakenApi\KrakenNodeApi
+182 verbose gentlyRm don't care about contents; nuking C:\Project\KrakenApi\KrakenNodeApi\node_modules\.staging\nan-410b227a
+183 verbose request uri https://registry.npmjs.org/kraken-api
+184 verbose request no auth needed
+185 info attempt registry request try #1 at 16:15:04
+186 verbose etag W/"58274d0e-47a9"
+187 verbose lastModified Sat, 12 Nov 2016 17:10:38 GMT
+188 http request GET https://registry.npmjs.org/kraken-api
+189 verbose tar unpack C:\Users\LOUIS\AppData\Roaming\npm-cache\nan\2.6.2\package.tgz
+190 verbose tar unpacking to C:\Project\KrakenApi\KrakenNodeApi\node_modules\.staging\nan-410b227a
+191 silly gentlyRm C:\Project\KrakenApi\KrakenNodeApi\node_modules\.staging\nan-410b227a is being purged
+192 verbose gentlyRm don't care about contents; nuking C:\Project\KrakenApi\KrakenNodeApi\node_modules\.staging\nan-410b227a
+193 silly gentlyRm C:\Project\KrakenApi\KrakenNodeApi\node_modules\.staging\sleep-62ada706 is being purged from base C:\Project\KrakenApi\KrakenNodeApi
+194 verbose gentlyRm don't care about contents; nuking C:\Project\KrakenApi\KrakenNodeApi\node_modules\.staging\sleep-62ada706
+195 silly gunzTarPerm modes [ '777', '666' ]
+196 verbose tar unpack C:\Users\LOUIS\AppData\Roaming\npm-cache\sleep\5.1.1\package.tgz
+197 verbose tar unpacking to C:\Project\KrakenApi\KrakenNodeApi\node_modules\.staging\sleep-62ada706
+198 silly gentlyRm C:\Project\KrakenApi\KrakenNodeApi\node_modules\.staging\sleep-62ada706 is being purged
+199 verbose gentlyRm don't care about contents; nuking C:\Project\KrakenApi\KrakenNodeApi\node_modules\.staging\sleep-62ada706
+200 silly gunzTarPerm modes [ '777', '666' ]
+201 silly gunzTarPerm extractEntry package.json
+202 silly gunzTarPerm modified mode [ 'package.json', 436, 438 ]
+203 silly gunzTarPerm extractEntry package.json
+204 silly gunzTarPerm modified mode [ 'package.json', 436, 438 ]
+205 silly gunzTarPerm extractEntry README.md
+206 silly gunzTarPerm modified mode [ 'README.md', 436, 438 ]
+207 silly gunzTarPerm extractEntry include_dirs.js
+208 silly gunzTarPerm modified mode [ 'include_dirs.js', 436, 438 ]
+209 silly gunzTarPerm extractEntry .npmignore
+210 silly gunzTarPerm modified mode [ '.npmignore', 436, 438 ]
+211 silly gunzTarPerm extractEntry README.md
+212 silly gunzTarPerm modified mode [ 'README.md', 436, 438 ]
+213 silly gunzTarPerm extractEntry nan_converters_43_inl.h
+214 silly gunzTarPerm modified mode [ 'nan_converters_43_inl.h', 436, 438 ]
+215 silly gunzTarPerm extractEntry LICENSE.md
+216 silly gunzTarPerm modified mode [ 'LICENSE.md', 436, 438 ]
+217 silly gunzTarPerm extractEntry doc/new.md
+218 silly gunzTarPerm modified mode [ 'doc/new.md', 436, 438 ]
+219 silly gunzTarPerm extractEntry doc/asyncworker.md
+220 silly gunzTarPerm modified mode [ 'doc/asyncworker.md', 436, 438 ]
+221 silly gunzTarPerm extractEntry test.js
+222 silly gunzTarPerm modified mode [ 'test.js', 436, 438 ]
+223 silly gunzTarPerm extractEntry index.js
+224 silly gunzTarPerm modified mode [ 'index.js', 436, 438 ]
+225 silly gunzTarPerm extractEntry doc/callback.md
+226 silly gunzTarPerm modified mode [ 'doc/callback.md', 436, 438 ]
+227 silly gunzTarPerm extractEntry doc/converters.md
+228 silly gunzTarPerm modified mode [ 'doc/converters.md', 436, 438 ]
+229 silly gunzTarPerm extractEntry doc/errors.md
+230 silly gunzTarPerm modified mode [ 'doc/errors.md', 436, 438 ]
+231 silly gunzTarPerm extractEntry doc/json.md
+232 silly gunzTarPerm modified mode [ 'doc/json.md', 436, 438 ]
+233 silly gunzTarPerm extractEntry LICENSE.txt
+234 silly gunzTarPerm modified mode [ 'LICENSE.txt', 436, 438 ]
+235 silly gunzTarPerm extractEntry sleep.cc
+236 silly gunzTarPerm modified mode [ 'sleep.cc', 436, 438 ]
+237 silly gunzTarPerm extractEntry binding.gyp
+238 silly gunzTarPerm modified mode [ 'binding.gyp', 436, 438 ]
+239 silly gunzTarPerm extractEntry doc/maybe_types.md
+240 silly gunzTarPerm modified mode [ 'doc/maybe_types.md', 436, 438 ]
+241 silly gunzTarPerm extractEntry doc/methods.md
+242 silly gunzTarPerm modified mode [ 'doc/methods.md', 436, 438 ]
+243 silly gunzTarPerm extractEntry doc/buffers.md
+244 silly gunzTarPerm modified mode [ 'doc/buffers.md', 436, 438 ]
+245 silly gunzTarPerm extractEntry doc/node_misc.md
+246 silly gunzTarPerm modified mode [ 'doc/node_misc.md', 436, 438 ]
+247 silly gunzTarPerm extractEntry doc/object_wrappers.md
+248 silly gunzTarPerm modified mode [ 'doc/object_wrappers.md', 436, 438 ]
+249 silly gunzTarPerm extractEntry doc/persistent.md
+250 silly gunzTarPerm modified mode [ 'doc/persistent.md', 436, 438 ]
+251 silly gunzTarPerm extractEntry doc/scopes.md
+252 silly gunzTarPerm modified mode [ 'doc/scopes.md', 436, 438 ]
+253 silly gunzTarPerm extractEntry doc/script.md
+254 silly gunzTarPerm modified mode [ 'doc/script.md', 436, 438 ]
+255 silly gunzTarPerm extractEntry doc/string_bytes.md
+256 silly gunzTarPerm modified mode [ 'doc/string_bytes.md', 436, 438 ]
+257 silly gunzTarPerm extractEntry doc/v8_internals.md
+258 silly gunzTarPerm modified mode [ 'doc/v8_internals.md', 436, 438 ]
+259 silly gunzTarPerm extractEntry doc/v8_misc.md
+260 silly gunzTarPerm modified mode [ 'doc/v8_misc.md', 436, 438 ]
+261 silly gunzTarPerm extractEntry nan.h
+262 silly gunzTarPerm modified mode [ 'nan.h', 436, 438 ]
+263 silly gunzTarPerm extractEntry nan_callbacks.h
+264 silly gunzTarPerm modified mode [ 'nan_callbacks.h', 436, 438 ]
+265 silly gunzTarPerm extractEntry nan_callbacks_12_inl.h
+266 silly gunzTarPerm modified mode [ 'nan_callbacks_12_inl.h', 436, 438 ]
+267 silly gunzTarPerm extractEntry nan_callbacks_pre_12_inl.h
+268 silly gunzTarPerm modified mode [ 'nan_callbacks_pre_12_inl.h', 436, 438 ]
+269 silly gunzTarPerm extractEntry nan_converters.h
+270 silly gunzTarPerm modified mode [ 'nan_converters.h', 436, 438 ]
+271 silly gunzTarPerm extractEntry nan_converters_pre_43_inl.h
+272 silly gunzTarPerm modified mode [ 'nan_converters_pre_43_inl.h', 436, 438 ]
+273 silly gentlyRm C:\Project\KrakenApi\KrakenNodeApi\node_modules\.staging\sleep-62ada706\node_modules is being purged
+274 verbose gentlyRm don't care about contents; nuking C:\Project\KrakenApi\KrakenNodeApi\node_modules\.staging\sleep-62ada706\node_modules
+275 silly gunzTarPerm extractEntry nan_implementation_12_inl.h
+276 silly gunzTarPerm modified mode [ 'nan_implementation_12_inl.h', 436, 438 ]
+277 silly gunzTarPerm extractEntry nan_implementation_pre_12_inl.h
+278 silly gunzTarPerm modified mode [ 'nan_implementation_pre_12_inl.h', 436, 438 ]
+279 silly gunzTarPerm extractEntry nan_json.h
+280 silly gunzTarPerm modified mode [ 'nan_json.h', 436, 438 ]
+281 silly gunzTarPerm extractEntry nan_maybe_43_inl.h
+282 silly gunzTarPerm modified mode [ 'nan_maybe_43_inl.h', 436, 438 ]
+283 silly gunzTarPerm extractEntry nan_maybe_pre_43_inl.h
+284 silly gunzTarPerm modified mode [ 'nan_maybe_pre_43_inl.h', 436, 438 ]
+285 silly gunzTarPerm extractEntry nan_new.h
+286 silly gunzTarPerm modified mode [ 'nan_new.h', 436, 438 ]
+287 silly gunzTarPerm extractEntry nan_object_wrap.h
+288 silly gunzTarPerm modified mode [ 'nan_object_wrap.h', 436, 438 ]
+289 silly gunzTarPerm extractEntry nan_persistent_12_inl.h
+290 silly gunzTarPerm modified mode [ 'nan_persistent_12_inl.h', 436, 438 ]
+291 silly gunzTarPerm extractEntry nan_persistent_pre_12_inl.h
+292 silly gunzTarPerm modified mode [ 'nan_persistent_pre_12_inl.h', 436, 438 ]
+293 silly gunzTarPerm extractEntry nan_private.h
+294 silly gunzTarPerm modified mode [ 'nan_private.h', 436, 438 ]
+295 silly gunzTarPerm extractEntry nan_string_bytes.h
+296 silly gunzTarPerm modified mode [ 'nan_string_bytes.h', 436, 438 ]
+297 silly gunzTarPerm extractEntry nan_typedarray_contents.h
+298 silly gunzTarPerm modified mode [ 'nan_typedarray_contents.h', 436, 438 ]
+299 silly gunzTarPerm extractEntry nan_weak.h
+300 silly gunzTarPerm modified mode [ 'nan_weak.h', 436, 438 ]
+301 silly gunzTarPerm extractEntry CHANGELOG.md
+302 silly gunzTarPerm modified mode [ 'CHANGELOG.md', 436, 438 ]
+303 silly gunzTarPerm extractEntry tools/package.json
+304 silly gunzTarPerm modified mode [ 'tools/package.json', 436, 438 ]
+305 silly gunzTarPerm extractEntry tools/README.md
+306 silly gunzTarPerm modified mode [ 'tools/README.md', 436, 438 ]
+307 silly gunzTarPerm extractEntry tools/1to2.js
+308 silly gunzTarPerm modified mode [ 'tools/1to2.js', 509, 511 ]
+309 http 304 https://registry.npmjs.org/kraken-api
+310 verbose headers { date: 'Thu, 25 May 2017 14:15:04 GMT',
+310 verbose headers   via: '1.1 varnish',
+310 verbose headers   'cache-control': 'max-age=300',
+310 verbose headers   etag: 'W/"58274d0e-47a9"',
+310 verbose headers   age: '0',
+310 verbose headers   connection: 'keep-alive',
+310 verbose headers   'x-served-by': 'cache-lcy1142-LCY',
+310 verbose headers   'x-cache': 'MISS',
+310 verbose headers   'x-cache-hits': '0',
+310 verbose headers   'x-timer': 'S1495721704.147920,VS0,VE109',
+310 verbose headers   vary: 'Accept-Encoding' }
+311 silly get cb [ 304,
+311 silly get   { date: 'Thu, 25 May 2017 14:15:04 GMT',
+311 silly get     via: '1.1 varnish',
+311 silly get     'cache-control': 'max-age=300',
+311 silly get     etag: 'W/"58274d0e-47a9"',
+311 silly get     age: '0',
+311 silly get     connection: 'keep-alive',
+311 silly get     'x-served-by': 'cache-lcy1142-LCY',
+311 silly get     'x-cache': 'MISS',
+311 silly get     'x-cache-hits': '0',
+311 silly get     'x-timer': 'S1495721704.147920,VS0,VE109',
+311 silly get     vary: 'Accept-Encoding' } ]
+312 verbose etag https://registry.npmjs.org/kraken-api from cache
+313 verbose get saving kraken-api to C:\Users\LOUIS\AppData\Roaming\npm-cache\registry.npmjs.org\kraken-api\.cache.json
+314 verbose correctMkdir C:\Users\LOUIS\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+315 silly mapToRegistry name kraken-api
+316 silly mapToRegistry using default registry
+317 silly mapToRegistry registry https://registry.npmjs.org/
+318 silly mapToRegistry data Result {
+318 silly mapToRegistry   raw: 'kraken-api',
+318 silly mapToRegistry   scope: null,
+318 silly mapToRegistry   name: 'kraken-api',
+318 silly mapToRegistry   rawSpec: '',
+318 silly mapToRegistry   spec: 'latest',
+318 silly mapToRegistry   type: 'tag' }
+319 silly mapToRegistry uri https://registry.npmjs.org/kraken-api
+320 verbose addRemoteTarball https://registry.npmjs.org/kraken-api/-/kraken-api-0.1.7.tgz not in flight; adding
+321 verbose addRemoteTarball [ 'https://registry.npmjs.org/kraken-api/-/kraken-api-0.1.7.tgz',
+321 verbose addRemoteTarball   'b752435e6917ba71d9e734a5fed3fa5961622de8' ]
+322 info retry fetch attempt 1 at 16:15:04
+323 info attempt registry request try #1 at 16:15:04
+324 http fetch GET https://registry.npmjs.org/kraken-api/-/kraken-api-0.1.7.tgz
+325 silly gentlyRm C:\Project\KrakenApi\KrakenNodeApi\node_modules\.staging\nan-410b227a\node_modules is being purged
+326 verbose gentlyRm don't care about contents; nuking C:\Project\KrakenApi\KrakenNodeApi\node_modules\.staging\nan-410b227a\node_modules
+327 http fetch 200 https://registry.npmjs.org/kraken-api/-/kraken-api-0.1.7.tgz
+328 silly fetchAndShaCheck shasum b752435e6917ba71d9e734a5fed3fa5961622de8
+329 verbose addTmpTarball C:\Users\LOUIS\AppData\Local\Temp\npm-15484-c42e5bf7\registry.npmjs.org\kraken-api\-\kraken-api-0.1.7.tgz not in flight; adding
+330 verbose addTmpTarball already have metadata; skipping unpack for kraken-api@0.1.7
+331 verbose correctMkdir C:\Users\LOUIS\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+332 verbose unbuild node_modules\.staging\kraken-api-6927cdf4
+333 silly gentlyRm C:\Project\KrakenApi\KrakenNodeApi\node_modules\.staging\kraken-api-6927cdf4 is being purged from base C:\Project\KrakenApi\KrakenNodeApi
+334 verbose gentlyRm don't care about contents; nuking C:\Project\KrakenApi\KrakenNodeApi\node_modules\.staging\kraken-api-6927cdf4
+335 verbose tar unpack C:\Users\LOUIS\AppData\Roaming\npm-cache\kraken-api\0.1.7\package.tgz
+336 verbose tar unpacking to C:\Project\KrakenApi\KrakenNodeApi\node_modules\.staging\kraken-api-6927cdf4
+337 silly gentlyRm C:\Project\KrakenApi\KrakenNodeApi\node_modules\.staging\kraken-api-6927cdf4 is being purged
+338 verbose gentlyRm don't care about contents; nuking C:\Project\KrakenApi\KrakenNodeApi\node_modules\.staging\kraken-api-6927cdf4
+339 silly gunzTarPerm modes [ '777', '666' ]
+340 silly gunzTarPerm extractEntry package.json
+341 silly gunzTarPerm modified mode [ 'package.json', 436, 438 ]
+342 silly gunzTarPerm extractEntry .npmignore
+343 silly gunzTarPerm modified mode [ '.npmignore', 436, 438 ]
+344 silly gunzTarPerm extractEntry README.md
+345 silly gunzTarPerm modified mode [ 'README.md', 436, 438 ]
+346 silly gunzTarPerm extractEntry kraken.js
+347 silly gunzTarPerm modified mode [ 'kraken.js', 436, 438 ]
+348 silly gunzTarPerm extractEntry LICENSE.md
+349 silly gunzTarPerm modified mode [ 'LICENSE.md', 436, 438 ]
+350 silly gentlyRm C:\Project\KrakenApi\KrakenNodeApi\node_modules\.staging\kraken-api-6927cdf4\node_modules is being purged
+351 verbose gentlyRm don't care about contents; nuking C:\Project\KrakenApi\KrakenNodeApi\node_modules\.staging\kraken-api-6927cdf4\node_modules
+352 silly doParallel preinstall 3
+353 silly preinstall nan@2.6.2 C:\Project\KrakenApi\KrakenNodeApi\node_modules\.staging\nan-410b227a
+354 info lifecycle nan@2.6.2~preinstall: nan@2.6.2
+355 silly preinstall kraken-api@0.1.7 C:\Project\KrakenApi\KrakenNodeApi\node_modules\.staging\kraken-api-6927cdf4
+356 info lifecycle kraken-api@0.1.7~preinstall: kraken-api@0.1.7
+357 silly preinstall sleep@5.1.1 C:\Project\KrakenApi\KrakenNodeApi\node_modules\.staging\sleep-62ada706
+358 info lifecycle sleep@5.1.1~preinstall: sleep@5.1.1
+359 silly lifecycle nan@2.6.2~preinstall: no script for preinstall, continuing
+360 silly lifecycle kraken-api@0.1.7~preinstall: no script for preinstall, continuing
+361 silly lifecycle sleep@5.1.1~preinstall: no script for preinstall, continuing
+362 silly doReverseSerial remove 0
+363 silly doSerial move 0
+364 silly doSerial finalize 3
+365 silly finalize C:\Project\KrakenApi\KrakenNodeApi\node_modules\nan
+366 silly finalize C:\Project\KrakenApi\KrakenNodeApi\node_modules\kraken-api
+367 silly finalize C:\Project\KrakenApi\KrakenNodeApi\node_modules\sleep
+368 silly doSerial build 3
+369 silly build nan@2.6.2
+370 info linkStuff nan@2.6.2
+371 silly linkStuff nan@2.6.2 has C:\Project\KrakenApi\KrakenNodeApi\node_modules as its parent node_modules
+372 verbose linkBins nan@2.6.2
+373 verbose linkMans nan@2.6.2
+374 silly build kraken-api@0.1.7
+375 info linkStuff kraken-api@0.1.7
+376 silly linkStuff kraken-api@0.1.7 has C:\Project\KrakenApi\KrakenNodeApi\node_modules as its parent node_modules
+377 verbose linkBins kraken-api@0.1.7
+378 verbose linkMans kraken-api@0.1.7
+379 silly build sleep@5.1.1
+380 info linkStuff sleep@5.1.1
+381 silly linkStuff sleep@5.1.1 has C:\Project\KrakenApi\KrakenNodeApi\node_modules as its parent node_modules
+382 verbose linkBins sleep@5.1.1
+383 verbose linkMans sleep@5.1.1
+384 silly doSerial global-link 0
+385 silly doParallel update-linked 0
+386 silly doSerial install 3
+387 silly install nan@2.6.2 C:\Project\KrakenApi\KrakenNodeApi\node_modules\.staging\nan-410b227a
+388 info lifecycle nan@2.6.2~install: nan@2.6.2
+389 silly lifecycle nan@2.6.2~install: no script for install, continuing
+390 silly install kraken-api@0.1.7 C:\Project\KrakenApi\KrakenNodeApi\node_modules\.staging\kraken-api-6927cdf4
+391 info lifecycle kraken-api@0.1.7~install: kraken-api@0.1.7
+392 silly lifecycle kraken-api@0.1.7~install: no script for install, continuing
+393 silly install sleep@5.1.1 C:\Project\KrakenApi\KrakenNodeApi\node_modules\.staging\sleep-62ada706
+394 info lifecycle sleep@5.1.1~install: sleep@5.1.1
+395 verbose lifecycle sleep@5.1.1~install: unsafe-perm in lifecycle true
+396 verbose lifecycle sleep@5.1.1~install: PATH: C:\Users\LOUIS\AppData\Roaming\npm\node_modules\npm\bin\node-gyp-bin;C:\Project\KrakenApi\KrakenNodeApi\node_modules\sleep\node_modules\.bin;C:\Project\KrakenApi\KrakenNodeApi\node_modules\.bin;C:\Program Files\nodejs;C:\Python361\Scripts\;C:\Python361\;D:\Program Files (x86)\ImageMagick-7.0.4-Q8;C:\ProgramData\Oracle\Java\javapath;C:\Program Files\Common Files\Microsoft Shared\Windows Live;C:\Program Files (x86)\Common Files\Microsoft Shared\Windows Live;C:\Program Files\RSA SecurID Token Common;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\OpenCL SDK\3.0\bin\x86;C:\Program Files (x86)\Intel\OpenCL SDK\3.0\bin\x64;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\GNU\GnuPG\pub;C:\Program Files (x86)\Windows Live\Shared;C:\Program Files\nodejs\;C:\Project\apache-maven-3.3.9\bin;C:\Program Files\Git\bin\;C:\Python27;C:\Program Files (x86)\MySQL\MySQL Fabric 1.5 & MySQL Utilities 1.5\;C:\Program Files (x86)\MySQL\MySQL Fabric 1.5 & MySQL Utilities 1.5\Doctrine extensions for PHP\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\MongoDB\Server\3.2\bin\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Skype\Phone\;C:\Python27\Scripts\;C:\ProgramData\chocolatey\bin;C:\Users\LOUIS\AppData\Roaming\npm;C:\Users\LOUIS\AppData\Local\Microsoft\WindowsApps;
+397 verbose lifecycle sleep@5.1.1~install: CWD: C:\Project\KrakenApi\KrakenNodeApi\node_modules\sleep
+398 silly lifecycle sleep@5.1.1~install: Args: [ '/d /s /c', 'node-gyp rebuild' ]
+399 silly lifecycle sleep@5.1.1~install: Returned: code: 1  signal: null
+400 info lifecycle sleep@5.1.1~install: Failed to exec install script
+401 verbose unlock done using C:\Users\LOUIS\AppData\Roaming\npm-cache\_locks\staging-79d35736fa160d13.lock for C:\Project\KrakenApi\KrakenNodeApi\node_modules\.staging
+402 silly rollbackFailedOptional Starting
+403 silly rollbackFailedOptional Finishing
+404 silly runTopLevelLifecycles Starting
+405 silly runTopLevelLifecycles Finishing
+406 silly install printInstalled
+407 verbose stack Error: sleep@5.1.1 install: `node-gyp rebuild`
+407 verbose stack Exit status 1
+407 verbose stack     at EventEmitter.<anonymous> (C:\Users\LOUIS\AppData\Roaming\npm\node_modules\npm\lib\utils\lifecycle.js:245:16)
+407 verbose stack     at emitTwo (events.js:87:13)
+407 verbose stack     at EventEmitter.emit (events.js:172:7)
+407 verbose stack     at ChildProcess.<anonymous> (C:\Users\LOUIS\AppData\Roaming\npm\node_modules\npm\lib\utils\spawn.js:24:14)
+407 verbose stack     at emitTwo (events.js:87:13)
+407 verbose stack     at ChildProcess.emit (events.js:172:7)
+407 verbose stack     at maybeClose (internal/child_process.js:818:16)
+407 verbose stack     at Process.ChildProcess._handle.onexit (internal/child_process.js:211:5)
+408 verbose pkgid sleep@5.1.1
+409 verbose cwd C:\Project\KrakenApi\KrakenNodeApi
+410 error Windows_NT 10.0.14393
+411 error argv "C:\\Program Files\\nodejs\\node.exe" "C:\\Users\\LOUIS\\AppData\\Roaming\\npm\\node_modules\\npm\\bin\\npm-cli.js" "install" "sleep" "--save"
+412 error node v4.2.3
+413 error npm  v3.9.0
+414 error code ELIFECYCLE
+415 error sleep@5.1.1 install: `node-gyp rebuild`
+415 error Exit status 1
+416 error Failed at the sleep@5.1.1 install script 'node-gyp rebuild'.
+416 error Make sure you have the latest version of node.js and npm installed.
+416 error If you do, this is most likely a problem with the sleep package,
+416 error not with npm itself.
+416 error Tell the author that this fails on your system:
+416 error     node-gyp rebuild
+416 error You can get information on how to open an issue for this project with:
+416 error     npm bugs sleep
+416 error Or if that isn't available, you can get their info via:
+416 error     npm owner ls sleep
+416 error There is likely additional logging output above.
+417 verbose exit [ 1, true ]
